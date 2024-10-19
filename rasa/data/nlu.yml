@@ -1,0 +1,189 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+    - hello world
+    - hi there
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - thanks, goodbye
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - /affirm
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: stop
+  examples: |
+    - stop
+    - nevermind
+    - please stop
+    - i want to stop
+    - stop the form
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - by the way, are you a human?
+- intent: buy_fancy_pizza
+  examples: |
+    - i'd like to buy a fancy pizza
+    - i want a fancy pizza
+    - can i buy a fancy pizza
+    - I'm interested in a fancy flattened bread of Italian origin
+    - buy a fancy pizza
+    - can you get me a gourmet pizza?
+    - I'd love to order a special pizza
+    - please order a fancy pizza for me
+    - I'd like a pizza with a fancy topping
+    - can I get a deluxe pizza?
+    - I'm looking to purchase a fancy pizza
+    - I'd prefer a gourmet pizza, please
+    - how do I order a fancy pizza?
+    - I want to get a fancy pizza today
+    - I would like to have a fancy pizza, please
+    - let's order a fancy pizza
+    - could you help me order a fancy pizza?
+    - I am craving a fancy pizza
+    - I’d like to order a specialty pizza
+    - I want a unique pizza experience
+    - I’m in the mood for a fancy pizza
+    - can you help me get a fancy pizza?
+    - please get me a gourmet pizza with all the toppings
+    - order me a fancy pizza, will you?
+    - I want to treat myself to a fancy pizza
+    - give me a fancy pizza with extra cheese
+    - I'd like to order a fancy pizza for dinner
+
+- intent: buy_pizza
+  examples: |
+    - i'd like to buy a pizza
+    - i want a pizza
+    - can i buy a pizza
+    - I'm interested in a savory round flattened bread of Italian origin
+    - i want to buy a pizza
+    - i want to order a pizza
+    - please get me a pizza
+    - I’d love to order a pizza right now
+    - can you help me order a pizza?
+    - I'm craving a pizza
+    - I'd like to have a pizza for dinner
+    - can I get a pizza delivered?
+    - I want to place an order for a pizza
+    - I'd like a pepperoni pizza
+    - can you make sure my pizza has extra cheese?
+    - I need a pizza for a party
+    - I'm looking to buy a pizza
+    - could you assist me in ordering a pizza?
+    - I’d like to get a classic pizza
+    - order me a pizza with all the toppings
+    - I want a pizza with mushrooms
+    - give me a large pizza, please
+    - can I have a pizza with pepperoni and olives?
+    - I'd like a veggie pizza, please
+    - I want a thin-crust pizza
+    - can you order a pizza for me?
+
+- intent: inform
+  examples: |
+    - i'd like a [large](pizza_size) pizza
+    - i want to order a [xl](pizza_size) [hawai](pizza_type) pizza
+    - [medium](pizza_size) pizza
+    - [xl](pizza_size)
+    - [small](pizza_size)
+    - [s](pizza_size)
+    - [pepperoni](pizza_type)
+    - give me a [mozerella](pizza_type) pizza
+    - [hawaii](pizza_type) pizza
+    - [smol](pizza_size)
+    - [hawaii](pizza_type)
+    - i want a [large](pizza_size) pizza
+    - [mozzarella](pizza_type)
+    - [hawai](pizza_type)
+    - [veggie](pizza_type)
+    - [fungi](pizza_type)
+    - [vegggie](pizza_type)
+    - i want to buy a [large](pizza_size) pizza
+    - i'd like to order a [personal](pizza_size) pizza
+    - a [medium](pizza_size) pizza please
+    - please make it a [family](pizza_size) pizza
+    - I want a [xl](pizza_size) pizza
+    - I'd love a [medium](pizza_size) pizza with [mushrooms](pizza_type)
+    - get me a [large](pizza_size) pizza with [extra cheese](pizza_type)
+    - can you give me an [xl](pizza_size) [margherita](pizza_type)?
+    - order a [small](pizza_size) [pepperoni](pizza_type) pizza
+    - I need a [medium](pizza_size) pizza for my friends
+    - let's get a [large](pizza_size) [bbq chicken](pizza_type) pizza
+    - I want a [family](pizza_size) pizza with everything on it
+    - could you get me an [xl](pizza_size) [four cheese](pizza_type) pizza?
+    - I'll have a [medium](pizza_size) pizza without anchovies
